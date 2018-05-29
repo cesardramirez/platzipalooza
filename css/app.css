@@ -1,0 +1,174 @@
+body {
+	background-color: black;
+	font-family: 'Bree Serif', serif;
+}
+
+h1, h2, h3, h4, h5, h6, button, input[type="submit"] {
+	font-family: 'Bree Serif', serif;
+}
+
+#social-container {
+	background-color: #1c3643;
+}
+
+#logo-container .callout {
+	background-color: #ee3f54;
+	color: white;
+	margin-bottom: 0;
+}
+
+/* Estilos del menu */
+#menu-container {
+	background-color: #48a19d;
+}
+
+#menu-container li a {
+	color: white;
+	text-transform: uppercase;
+}
+
+#menu-container li a:hover,
+#submenu-container li a:hover {
+	color: #f6e15f;
+}
+
+#submenu-container {
+	border: 0;
+}
+
+#submenu-container li a {
+	background-color: #48a19d;
+	color: white;
+}
+
+/* Estilos de Tickets */
+#tickets-action .callout {
+	background-color: #5e7eb7;
+	margin-bottom: 0;
+}
+
+#tickets-action .callout button {
+	color: white;
+	border: 1px solid white;
+}
+
+/* Estilos del Lineup */
+#lineup-container {
+	padding: 1em 0;
+}
+
+#lineup-container,
+#lineup-container .tabs,
+#lineup-container .tabs-panel,
+#lineup-container .tabs .tabs-title.is-active a {
+	background-color: #9676af;
+	color: white;
+	border: 0;
+	text-transform: uppercase;
+	outline: none;
+}
+
+.tabs-content {
+	border: 0;
+}
+
+#lineup-container .tabs .tabs-title a {
+	font-size: 18px;
+	color: #a7fffb;
+}
+
+#lineup-container .tabs .tabs-title a:hover {
+	color: white;
+	background-color: #9676af;
+}
+
+.tabs-title {
+	display: inline-block;
+	float: none;
+}
+
+/* Estilos del Lineup - Orbit */
+#lineup-container .orbit-container {
+	margin-bottom: 1em;
+}
+
+#lineup-container .column:nth-child(odd) figcaption {
+	text-align: right;
+}
+
+.orbit-container {
+    height: auto !important;
+}
+.orbit-slide {
+    max-height: none !important;
+}
+
+/* Estilos de Precios */
+#tickets-container {
+	padding: 1em 0;
+	background-color: #f6e15f;
+	color: #161742;
+}
+
+.pricing-table {
+	border: 1px solid #161742;
+	font-family: 'Ravi Prakash', cursive;
+}
+
+.pricing-table li,
+.pricing-table li.description {
+	font-size: 20px;
+}
+
+.pricing-table li.price,
+.pricing-table li.title {
+	font-size: 30px;
+}
+
+.pricing-table a.button {
+	font-family: 'Bree Serif', serif;
+}
+
+/* Estilos de Información */
+#info-container {
+	background-color: #161742;
+	color: white;
+	padding: 1em 0;
+}
+
+#info-container .info-map iframe {
+	width: 100%;
+}
+
+#suscribete-container {
+	background-color: #ee3f54;
+	color: white;
+	padding: 1em 0;
+}
+
+/* Estilos de Suscríbete */
+#suscribete-container h4 small {
+	color: #ffcddc;
+}
+
+.is-invalid-input:not(:focus) {
+	background-color: #ffeeee;
+}
+
+.data-sticky {
+	z-index: 1;
+}
+
+/* Estilos para el off-canvas */
+#offCanvas, #offCanvas li a {
+	background-color: black;
+	color: white;
+}
+
+.drilldown .is-drilldown-submenu-parent > a::after {
+	border-color: transparent transparent transparent white;
+}
+
+.drilldown .js-drilldown-back > a::before {
+	border-color: transparent white transparent transparent;
+}
