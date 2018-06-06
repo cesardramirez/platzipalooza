@@ -1,2 +1,2 @@
 # platzipalooza
-Platzi - Foundation - Platzipalooza
+Platzi - Foundation v6.4.2 - Platzipalooza
